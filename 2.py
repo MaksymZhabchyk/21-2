@@ -1,6 +1,7 @@
 val = [1, "hello", 3.14, True, [1, 2, 3], 10, 20, 30]
 
-data_type = [type(item) for item in val]
+for item in val
+data_type = [type(item)]
 type_count = {}
 
 for t in data_type:
@@ -20,4 +21,4 @@ for t, count in type_count.items():
 
 
 print("Тип даних, який зустрічається найчастіше:", m_c_type)
-print("Кількість появ:", m_c_count)
+print("Кількість появ:", m_c_count) 
